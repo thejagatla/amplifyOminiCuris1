@@ -33,7 +33,7 @@ const Header = ({ courseDetails }) => {
         <Grid container spacing={3}>
           <Grid item xs={7}>
             <Paper className={classes.paper}>
-              <span>{courseDetails.name}</span>
+              <strong>{courseDetails.name}</strong>
             </Paper>
             <div className="video-file">
               <video
