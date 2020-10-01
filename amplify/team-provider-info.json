@@ -13,7 +13,9 @@
     },
     "categories": {
       "auth": {
-        "ominicuris1ee86742": {}
+        "ominicuris1ee86742": {
+          "hostedUIProviderCreds": "[]"
+        }
       }
     }
   }
