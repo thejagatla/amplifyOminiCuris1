@@ -6,7 +6,7 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Avatar from "@material-ui/core/Avatar";
-import AccessTimeIcon from "@material-ui/icons/AccessTime";
+//import AccessTimeIcon from "@material-ui/icons/AccessTime";
 //import ApiDataController from "../ApiDataController";
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +72,8 @@ const SidePanelBox = (props) => {
                       {module.name}
                     </span>{" "}
                     {"  "}
-                    <AccessTimeIcon /> {module.durationStr}
+                    {/* <AccessTimeIcon /> {module.durationStr} */}
+                    <span>Time : {module.durationStr}</span>
                   </Typography>
                 </ExpansionPanelSummary>
                 {module.moduleExperts

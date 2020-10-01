@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ominicuris-dev-201706-authRole",
+      "UnauthRoleArn": "arn:aws:iam::608147764686:role/amplify-ominicuris-dev-201706-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::608147764686:role/amplify-ominicuris-dev-201706-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-ominicuris-dev-201706-deployment",
+      "UnauthRoleName": "amplify-ominicuris-dev-201706-unauthRole",
+      "StackName": "amplify-ominicuris-dev-201706",
+      "StackId": "arn:aws:cloudformation:ap-south-1:608147764686:stack/amplify-ominicuris-dev-201706/d2aaad50-032b-11eb-b328-06529b029f30",
+      "AmplifyAppId": "d15afm34a35cg5"
+    },
+    "categories": {
+      "auth": {
+        "ominicuris1ee86742": {}
+      }
+    }
+  }
+}

@@ -4,9 +4,10 @@ import Header from "./Header";
 import ExpertsPanel from "./ExpertsPanel";
 import SidepanelBox from "./SidePanel/SidePanelBox";
 import axios from "axios";
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 
-export default class App extends React.Component {
+class App extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -97,8 +98,10 @@ export default class App extends React.Component {
           <Header courseDetails={this.state.courseDetails} />
           <ExpertsPanel expertDetails={this.state.expertsData} />
           <SidepanelBox getModuleDetailsById={this.getModuleDetailsById()} />
+          <AmplifySignOut />
         </div>
       );
     }
   }
 }
+export default withAuthenticator(App);
